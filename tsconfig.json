@@ -1,6 +1,8 @@
 {
     "extends": "@tsconfig/node18/tsconfig.json",
     "compilerOptions": {
+        "types": ["express"],
+        "typeRoots": ["node_modules/@types", "custom_typings"],
         "lib": ["ESNext"],
         "outDir": "dist",
     },
